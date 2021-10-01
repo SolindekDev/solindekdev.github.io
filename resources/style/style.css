@@ -1,0 +1,91 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: rgb(36, 36, 37);
+    color: white;
+}
+section {
+    margin-left: 430px;
+    margin-top: 40px;
+    margin-right: 430px;
+}
+.logo img {
+    width: 128px;
+    border-radius: 17px;
+}
+.text-title {
+    font-size: 37px;
+    font-weight: 600;
+}
+.text-desc {
+    color: rgb(238, 238, 238);
+    font-weight: 300;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text {
+    margin-left: 20px;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+nav li a {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    text-decoration: none;
+    transition: 0.2s all ease-in-out;
+}
+nav li a:hover {
+    color: rgb(207, 207, 207);
+    font-size: 19px;
+    text-decoration: none;
+}
+hr {
+    border: 0.5px solid rgb(218, 218, 218);
+}
+.code-space {
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.code-space-h2 {
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.code-space-h3 {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.code-space-h4 {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.code-space-h5 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.code-space-h1 {
+    font-size: 64px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.code-space a {
+    color: #d33;
+}
